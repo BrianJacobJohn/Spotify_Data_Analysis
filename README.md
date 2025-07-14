@@ -79,6 +79,8 @@ is unimodal as well.
 
 <img width="420" height="336" alt="image" src="https://github.com/user-attachments/assets/66648bd6-62ad-4d7f-9fc7-1c85d9ebe75a" />
 
+<img width="420" height="336" alt="image" src="https://github.com/user-attachments/assets/3a74a5bb-b193-488e-953e-a2ac775cdabe" />
+
 ## <u>Methodology & Results</u>:
 
 Initially, we will fit an <u>additive multiple linear regression
@@ -170,13 +172,13 @@ Here are the residual plots to help with checking model assumptions:
     non-linear pattern that would raise any flags. So, we consider this
     assumption to hold.
 
-![](Spotify_songs_final.markdown_github_files/figure-markdown_github/unnamed-chunk-7-1.png)
+<img width="420" height="336" alt="image" src="https://github.com/user-attachments/assets/099fb434-3028-4ba4-b13c-0b91613b2f54" />
 
-1.  <u>**Homoscedasticity**</u>: Again, using the same residual plot, we
+3.  <u>**Homoscedasticity**</u>: Again, using the same residual plot, we
     notice the lack of a funnel-like shape here. So, this assumption is
     not violated.
 
-![](Spotify_songs_final.markdown_github_files/figure-markdown_github/unnamed-chunk-8-1.png)
+<img width="420" height="336" alt="image" src="https://github.com/user-attachments/assets/8b89aaaf-1f03-4e25-a1cf-ecf757986f32" />
 
 1.  <u>**Normality**</u>: As we have more than 5000 observations, solely
     relying on a quantitative test of normality would not be the best
@@ -186,7 +188,7 @@ Here are the residual plots to help with checking model assumptions:
     there is noticeable deviation at the tails. While one can go either
     way on this, we will consider this a violation of the assumption.
 
-![](Spotify_songs_final.markdown_github_files/figure-markdown_github/unnamed-chunk-9-1.png)
+<img width="420" height="336" alt="image" src="https://github.com/user-attachments/assets/eb0e5994-a267-46fe-a718-135efd0557bf" />
 
 1.  <u>**Cook’s distance (Influential points and outliers)**</u>:
     Clearly, there are issues with influential points in our model. I
@@ -194,7 +196,7 @@ Here are the residual plots to help with checking model assumptions:
     but even if you ignored these points, there are multiple other
     points that lie beyond the green threshold.
 
-![](Spotify_songs_final.markdown_github_files/figure-markdown_github/unnamed-chunk-10-1.png)
+<img width="420" height="336" alt="image" src="https://github.com/user-attachments/assets/4aa295c8-a896-4262-b94d-223e1961c413" />
 
 Here is the largest influential points from our sampled data.
 Interestingly, it is a four second song by Japanese band DREAMS COME
@@ -267,7 +269,8 @@ relative importance/unimportnace.
 
     ------------------
 
-![](Spotify_songs_final.markdown_github_files/figure-markdown_github/unnamed-chunk-12-1.png)
+<img width="420" height="336" alt="image" src="https://github.com/user-attachments/assets/e11a5493-ece6-499c-b070-d1eb78cc229d" />
+
 
 Here, we see that our *R*<sub>*a**d**j*</sub><sup>2</sup> has
 unfortunately only improved slightly (0.25) compared to the previous
@@ -275,7 +278,7 @@ model (0.248). Could there be an issue of multicollinearity? To test
 this, we plot the GVIF’s (Generalized Variance Inflation Factor) for
 each predictor.
 
-![](Spotify_songs_final.markdown_github_files/figure-markdown_github/unnamed-chunk-13-1.png)
+<img width="420" height="336" alt="image" src="https://github.com/user-attachments/assets/642ada48-002b-4274-aee2-b25884585209" />
 
 The largest GVIF is approximately 2.5, which implies moderate
 correlation to other predictors. For most predictors the GVIF is
