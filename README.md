@@ -374,7 +374,7 @@ tail(anova(music_lm_interact),10)
 Thus, one should use this to make selective interactions that would
 strengthen the overall model.
 
-1.  <u>**Non-parametric model**</u>: This is much more random suggestion
+3.  <u>**Non-parametric model**</u>: This is much more random suggestion
     as compared to previous two. However, using the logic mentioned in
     (1), one should be able to see why a non-parametric approach may be
     beneficial.
