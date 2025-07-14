@@ -76,11 +76,8 @@ Here are some summary statistics of danceability:
 Here is a histogram and frequency polygon of the danceability trait for
 ease of visualization. We notice a left skew present in the plot and it
 is unimodal as well.
+
 <img width="420" height="336" alt="image" src="https://github.com/user-attachments/assets/66648bd6-62ad-4d7f-9fc7-1c85d9ebe75a" />
-
-![](Spotify_songs_final.markdown_github_files/figure-markdown_github/unnamed-chunk-4-1.png)
-
-![](Spotify_songs_final.markdown_github_files/figure-markdown_github/unnamed-chunk-4-2.png)
 
 ## <u>Methodology & Results</u>:
 
