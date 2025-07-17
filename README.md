@@ -48,8 +48,8 @@ This project uses Spotify’s open dataset (via TidyTuesday) and explores which 
 
 ---
 
-## 🧠 Author's Note
+## Note
 
-I built this project not just to practice modeling, but to explore the line between numbers and nuance — what can data tell us about human movement, taste, and emotion? This is part of my broader effort to make storytelling through data more accessible and human.
+I and my collaborator Like built this project not just to satisfy assignment requirements, but to explore the line between numbers and nuance — what can data tell us about human movement, taste, and emotion? This is part of my broader effort to make storytelling through data more accessible and human.
 
 For feedback or collaboration ideas, feel free to reach out!
