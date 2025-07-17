@@ -42,8 +42,8 @@ This project uses Spotify’s open dataset (via TidyTuesday) and explores which 
 ---
 
 ## 📎 Files
-- `Spotify_Danceability_Analysis.ipynb`: Contains full analysis, model building, diagnostics
-- `images/`: Visual outputs used in this README
+- `Spotify_Danceability_Analysis.qmd`: Contains full analysis, model building, diagnostics
+- `figure-markdown_github/`: Visual outputs used in this README
 - `data/`: Source and processed datasets
 
 ---
