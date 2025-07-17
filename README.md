@@ -44,6 +44,7 @@ This project uses Spotify’s open dataset (via TidyTuesday) and explores which 
 ## 📎 Files
 - `Spotify_Danceability_Analysis.qmd`: Contains full analysis, model building, diagnostics
 - `figure-markdown_github/`: Visual outputs used in this README
+- `Project_Writeup`: A cohesive article chronicling the analysis
 - `data/`: Source and processed datasets
 
 ---
